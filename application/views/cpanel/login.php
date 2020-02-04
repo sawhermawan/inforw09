@@ -32,7 +32,7 @@
 
 				<form class="login100-form validate-form" action="<?php echo base_url('index.php/login/do_login');?>" method="post">
 					<span class="login100-form-title">
-						Member Login
+						Login
 					</span>
 
 					<div class="wrap-input100 validate-input">
@@ -52,26 +52,27 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
+						<font color="red"> <?php echo $this->session->flashdata('gagalLogin')?> </font>
 						<button class="login100-form-btn">
 							Login
 						</button>
 					</div>
 
-					<div class="text-center p-t-12">
+					<!-- <div class="text-center p-t-12">
 						<span class="txt1">
 							Forgot
 						</span>
 						<a class="txt2" href="#">
 							Username / Password?
 						</a>
-					</div>
+					</div> -->
 
-					<div class="text-center p-t-136">
+					<!-- <div class="text-center p-t-136">
 						<a class="txt2" href="#">
 							Create your Account
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
-					</div>
+					</div> -->
 				</form>
 			</div>
 		</div>
