@@ -12,7 +12,7 @@ class M_login extends CI_Model {
 
 	function cek_user($username="",$password="")
 	{
-		$query = $this->db->get_where('users',array('username'=> $username, 'password'=> $password));
+		$query = $this->db->get_where('akses_login',array('username'=> $username, 'password'=> $password));
 		$query = $query->result_array();
 		return $query;
 	}

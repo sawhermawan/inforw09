@@ -33,18 +33,18 @@ class Login extends CI_Controller {
 		if (count($cek) == 1) {
 			foreach ($cek as $cek) {
 				$status 	= $cek['status'];
-				$id 		= $cek['user_id'];
-				$fullname	= $cek['full_name'];
-				$pic 		= $cek['images'];
+				$id 		= $cek['id_loginakses'];
+				$fullname	= $cek['fullname'];
+				$images 		= $cek['images'];
 			}
 			switch ($status) {
 				case 'ACTIVE':
 					$this->session->set_userdata(array(
 						'isiLogin'		=>TRUE, // set data telah login
 						'username'		=>$username, // set session username
-						'user_id'		=>$id,
+						'id_loginakses'	=>$id,
 						'fullname'		=>$fullname,
-						'images'		=>$pic
+						'images'		=>$images
 					));
 					redirect('cpanel');
 					break;
