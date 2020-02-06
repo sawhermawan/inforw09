@@ -136,7 +136,7 @@
                               <span class="fa fa-book form-control-feedback left" aria-hidden="true"></span>
                             </div>
 
-                            <input type="text" id="id" name="anggota_id">
+                            <input type="hidden" id="id" name="anggota_id">
                           </div>
                         </div>  
                         <div class="modal-footer">
