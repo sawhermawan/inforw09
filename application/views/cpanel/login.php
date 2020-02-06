@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +28,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<img src="images/img-01.png" alt="IMG">
+					<img src="<?php echo base_url(); ?>picture/091.png" alt="IMG">
 				</div>
 
 				<form class="login100-form validate-form" action="<?php echo base_url('index.php/login/do_login');?>" method="post">
@@ -39,7 +40,7 @@
 						<input class="input100" type="text" name="username" placeholder="username">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<i class="fa fa-pencil" aria-hidden="true"></i>
 						</span>
 					</div>
 
@@ -82,21 +83,21 @@
 
 	
 <!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="<?php echo base_url();?>assets/login_v1/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url();?>assets/login_v1/vendor/bootstrap/js/popper.js"></script>
+	<script src="<?php echo base_url();?>assets/login_v1/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
+	<script src="<?php echo base_url();?>assets/login_v1/vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script src="<?php echo base_url();?>assets/login_v1/vendor/tilt/tilt.jquery.min.js"></script>
 	<script >
 		$('.js-tilt').tilt({
 			scale: 1.1
 		})
 	</script>
 <!--===============================================================================================-->
-	<script src="js/main.js"></script>
+	<script src="<?php echo base_url();?>assets/login_v1/js/main.js"></script>
 
 </body>
 </html>
