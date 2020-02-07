@@ -65,6 +65,7 @@
                       <li><a href="<?php echo base_url(); ?>index.php/Login_akses">Akses Login</a></li>
                       <li><a href="<?php echo base_url(); ?>index.php/kepengurusan">Struktur Kepengurusan</a></li>
                       <li><a href="<?php echo base_url(); ?>index.php/jobdesk">Jobdesk Pengurus</a></li>
+                      <li><a href="<?php echo base_url(); ?>index.php/tentang">Tentang Kami</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
