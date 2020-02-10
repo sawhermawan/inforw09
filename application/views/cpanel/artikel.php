@@ -100,7 +100,7 @@
                         <div class="modal-body" id="modal-delete">
                           <div class="row">
 
-                            <input type="text" id="id" name="berita_id">
+                            <input type="hidden" id="id" name="berita_id">
                             <div class="alert alert-info">
                               <p>Apa bener mau delete arltike ini???.</p>
                             </div>
