@@ -28,7 +28,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<img src="<?php echo base_url(); ?>picture/091.png" alt="IMG">
+					<img src="<?php echo base_url(); ?>assets/img/091.png" alt="IMG">
 				</div>
 
 				<form class="login100-form validate-form" action="<?php echo base_url('index.php/login/do_login');?>" method="post">

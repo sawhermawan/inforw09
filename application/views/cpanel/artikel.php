@@ -102,14 +102,14 @@
 
                             <input type="hidden" id="id" name="berita_id">
                             <div class="alert alert-info">
-                              <p>Apa bener mau delete arltike ini???.</p>
+                              <p>Apa bener mau hapus artikel ini???.</p>
                             </div>
 
                           </div>
                         </div>  
                         <div class="modal-footer">
-                            <button class="btn btn-primary" type="submit"><i class="fa fa-save"></i> Save</button>
-                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
+                            <button class="btn btn-primary" type="submit"><i class="fa fa-save"></i> Ya</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i> Tidak Jadi</button>
                         </div>
                           </form>
                       </div>

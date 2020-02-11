@@ -9,6 +9,7 @@ class Laman_web extends CI_Controller {
 		parent::__construct();
 		$this->load->model('m_home');
 
+
 	}
 
 	

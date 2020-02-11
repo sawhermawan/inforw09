@@ -18,10 +18,16 @@
 
 </head>
 
-<body>
+<body id="tole">
+  <style>
+    #tole{
+      background-color: #e8edea;
+
+    }
+  </style>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">RW 09</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,13 +36,13 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="services.html">Services</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Portfolio
             </a>
@@ -47,8 +53,8 @@
               <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
               <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
             </div>
-          </li>
-          <li class="nav-item dropdown">
+          </li> -->
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Blog
             </a>
@@ -57,8 +63,8 @@
               <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
               <a class="dropdown-item" href="blog-post.html">Blog Post</a>
             </div>
-          </li>
-          <li class="nav-item dropdown">
+          </li> -->
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Other Pages
             </a>
@@ -69,7 +75,7 @@
               <a class="dropdown-item" href="404.html">404</a>
               <a class="dropdown-item" href="pricing.html">Pricing Table</a>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
