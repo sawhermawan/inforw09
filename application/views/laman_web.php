@@ -95,17 +95,17 @@
             <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4" id="tren"><span id="tren1">Trending</span>&nbsp; <span id="tren2">Topic</span></div>
         </div>
         <div class="owl-carousel owl-theme js" id="slider1">
-          <?php foreach ($m_home->result() as $laman): ?>
+          <?php foreach ($m_trending->result() as $tr): ?>
             <div class="item px-2">
                 <div class="fh5co_latest_trading_img_position_relative">
-                  <a href="<?php echo base_url('index.php/laman_web/view/'.$laman->berita_id)?>"> </a>
+                  <a href=""> </a>
                     <div class="fh5co_latest_trading_img">
-                      <img src="<?php echo base_url(); ?>assets/images/<?php echo $laman->picture; ?>" alt=""
+                      <img src="<?php echo base_url(); ?>assets/img/<?php echo $tr->picture; ?>" alt=""
                       class="fh5co_img_special_relative"/></div>
                     <div class="fh5co_latest_trading_img_position_absolute"></div>
                     <div class="fh5co_latest_trading_img_position_absolute_1" id="jdul">
-                        <a href="<?php echo base_url('index.php/laman_web/view/'.$laman->berita_id)?>" class="text-white" > <?php echo $laman->judul_acara; ?> </a>
-                        <div class="fh5co_latest_trading_date_and_name_color"> <?php echo $laman->tanggal; ?></div>
+                        <a href="<?php echo base_url('index.php/trending_web/view/'.$tr->id_trending)?>" class="text-white" > <?php echo $tr->judul_trending; ?> </a>
+                        <div class="fh5co_latest_trading_date_and_name_color"> <?php echo $tr->tanggal; ?></div>
                     </div>
                 </div>
             </div>

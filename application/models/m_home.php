@@ -12,7 +12,7 @@ class M_home extends CI_Model {
 
     public function GetArtikel()
     {
-        $query = " SELECT berita_id, artikel, judul_acara, picture, tanggal FROM berita_acara ORDER BY tanggal DESC";
+        $query = " SELECT berita_id, artikel, judul_acara, picture, tanggal FROM berita_acara ORDER BY tanggal ASC";
 
         $infoartikel = $this->db->query($query);
       return $infoartikel;

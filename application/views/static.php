@@ -129,7 +129,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav mr-auto" >
                     <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>index.php/laman_web">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
@@ -154,7 +154,35 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-color: #02e33e;">
+        <div class="carousel-item active" style="background-color: black;">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><?php
+                        $tanggal= mktime(date("m"),date("d"),date("Y"));
+                        
+                        date_default_timezone_set('Asia/Jakarta');
+                        $jam=date("H:i:s");
+                        
+                        $a = date ("H");
+                        if (($a>=6) && ($a<=11)){
+                        echo " Selamat Pagi, Selamat Beraktifitas.. ";
+                        }
+                        else if(($a>11) && ($a<=15))
+                        {
+                        echo " Selamat Siang, Salam Sejahtera.. " ;
+                        }
+                        else if (($a>15) && ($a<=18)){
+                        echo " Selamat Sore, Salam Lestari..";
+                        }
+                        else { echo " Selamat Malam, Selamat Beristirahat..";}
+                        ?> 
+            </h1>
+            <br><br><br><br><br><br>
+
+                          
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for thih3s slide in the line below -->
+        <div class="carousel-item " style="background-color: #02e33e;">
           <div class="carousel-caption d-none d-md-block">
             <h1>Visi</h1>
             <br>
@@ -163,7 +191,7 @@
             <br><br>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for thih3s slide in the line below -->
+        <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-color: #0285e3;">
           <div class="carousel-caption d-none d-md-block">
             <h1>Misi</h1>
@@ -171,28 +199,6 @@
               <h3>2. Mempelopori reformasi sistem birokrasi yang sesuai dengan aturan yang berlaku dengan transparan dan akuntabel dan dapat dipertanggung jawabkan.</h3>
               <h3>3. Meningkatkan kegiatan yang kontruktif dan dapat dirasakan oleh seluruh warga RW.09 tanpa terkecuali.</h3>
 
-          </div>
-        </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-color: black;">
-          <div class="carousel-caption d-none d-md-block">
-            <h1><?php $a = date ("H");
-                        if (($a>=6) && ($a<=11)){
-                        echo ", <b> Selamat Pagi, Salam Sejahtera..</b> ";
-                        }
-                        else if(($a>11) && ($a<=15))
-                        {
-                        echo ", <b> Selamat Malam, Selamat Beraktifitas..</b> " ;
-                        }
-                        else if (($a>15) && ($a<=18)){
-                        echo ", <b> Selamat Sore, Hati2x Berkendara Di Jalan Pulang ..</b>";
-                        }
-                        else { echo " <b> Selamat Malam, Selamat Beristirahat..</b>";}
-                        ?> 
-            </h1>
-            <br><br><br><br><br><br>
-
-                          
           </div>
         </div>
       </div>

@@ -8,8 +8,7 @@ class Laman_web extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('m_home');
-
-
+		$this->load->model('m_trending');
 	}
 
 	
@@ -17,6 +16,7 @@ class Laman_web extends CI_Controller {
 	{
 
 		$data['m_home'] = $this->m_home->GetArtikel();
+		$data['m_trending'] = $this->m_trending->GetTrending();
 		$this->template->load('static', 'laman_web',$data);
 	}
 	public function about()
